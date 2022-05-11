@@ -5,6 +5,7 @@ let package = Package(
     name: "fluent",
     platforms: [
        .macOS(.v10_15),
+       .iOS(.v13)
     ],
     products: [
         .library(name: "Fluent", targets: ["Fluent"]),
